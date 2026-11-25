@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сокуренко Б. В., ІП-41, ЛР №2, варіант 2 (№112)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            table-layout: fixed;
+        }
+
+        td {
+            border: 1px solid black;
+            height: 35px;
+            text-align: center;
+        }
+
+        tr:nth-child(1) td {
+            background-color: #028f8f;
+            color: black;
+        }
+
+        tr:nth-child(2) td {
+            background-color: #f5f502;
+            color: black;
+        }
+
+        tr:nth-child(1):hover td {
+            background-color: black;
+            color: #028f8f;
+        }
+
+        tr:nth-child(2):hover td {
+            background-color: black;
+            color: #f5f502;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторна робота №2</h1>
+    <h2>Завдання 1</h2>
+    <table>
+        <tr>
+            <td rowspan="3">Сокуренко</td>
+            <td>Богдан</td>
+            <td rowspan="3">Віталійович</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ІП-41</td>
+            <td>ЛР №2, варіант 2</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>Завдання 2</h2>
+    <div class="flags">
+        <div>
+            <p>position</p>
+            <div class="flag flag-position" role="img" aria-label="Прапор Швейцарії">
+                <div class="horizontal"></div>
+                <div class="vertical"></div>
+            </div>
+        </div>
+        <div>
+            <p>transform</p>
+            <div class="flag flag-transform" role="img" aria-label="Прапор Швейцарії">
+                <div class="first"></div>
+                <div class="second"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.flags {
+    display: flex;
+    gap: 40px;
+}
+
+.flag {
+    width: 150px;
+    height: 150px;
+    background-color: #d00000;
+}
+
+/* Прапор за допомогою position */
+.flag-position {
+    position: relative;
+}
+
+.horizontal {
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    top: 61px;
+    left: 30px;
+    background-color: white;
+}
+
+.vertical {
+    position: absolute;
+    width: 28px;
+    height: 90px;
+    top: 30px;
+    left: 61px;
+    background-color: white;
+}
+
+/* Прапор за допомогою transform */
+.flag-transform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first, .second {
+    width: 90px;
+    height: 28px;
+    background-color: white;
+}
+
+.first {
+    transform: translateY(14px);
+}
+
+.second {
+    transform: translateY(-14px) rotate(90deg);
+}
